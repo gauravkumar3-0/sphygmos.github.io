@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #111;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.section {
+  padding: 60px 20px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.gallery-section {
+  padding: 40px 20px;
+  background: #222;
+}
+.gallery-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.gallery-slider img {
+  width: 300px;
+  margin-right: 15px;
+  border-radius: 8px;
+}

@@ -3,33 +3,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sphygmos 3.0</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header>
-    <h1>Sphygmos 3.0</h1>
-    <p class="tagline">Igniting the Pulse of Passion</p>
-    <p class="dates">14–24 September 2025</p>
-    <nav>
-      <ul>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="fixtures.html">Fixtures</a></li>
-        <li><a href="team.html">Organizing Team</a></li>
-        <li><a href="contributions.html">Contributions</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar sticky">
+      <div class="logo">Sphygmos 3.0</div>
+      <ul class="nav-links">
+        <li><a href="#vortex">VORTEX</a></li>
+        <li><a href="#artemis">ARTEMIS</a></li>
+        <li><a href="#dharohar">DHAROHAR</a></li>
+        <li><a href="#gyanothsav">GYANOTHSAV</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>Welcome to Sphygmos 3.0</h2>
-      <p>This is the official website of our 10-day medical college fest.</p>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 Sphygmos Fest. Follow us on Instagram.</p>
-  </footer>
+
+  <section id="vortex" class="section" style="background-image: url('images/vortex-bg.jpg');">
+    <h2>VORTEX – Sports</h2>
+    <p>Include detailed fixtures here...</p>
+  </section>
+
+  <section id="artemis" class="section" style="background-image: url('images/artemis-bg.jpg');">
+    <h2>ARTEMIS – Art & Craft</h2>
+  </section>
+
+  <section id="dharohar" class="section" style="background-image: url('images/dharohar-bg.jpg');">
+    <h2>DHAROHAR – Cultural</h2>
+  </section>
+
+  <section id="gyanothsav" class="section" style="background-image: url('images/gyanothsav-bg.jpg');">
+    <h2>GYANOTHSAV – Academics</h2>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-slider">
+      <img src="images/gallery/photo1.jpg" alt="Gallery 1"/>
+      <img src="images/gallery/photo2.jpg" alt="Gallery 2"/>
+      <img src="images/gallery/photo3.jpg" alt="Gallery 3"/>
+    </div>
+  </section>
+
+  <script src="js/gallery.js"></script>
 </body>
 </html>
